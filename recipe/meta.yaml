@@ -15,7 +15,7 @@ source:
 build:
   merge_build_host: True  # [win]
   skip: True              # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,18 +37,18 @@ requirements:
     - {{posix}}coreutils         # [win]
     - {{posix}}zip               # [win]
   host:
+    - libblas
+    - libcblas
     - r-base
     - r-awsmethods >=1.0_1
     - r-gsl
     - gsl                        # [win]
-    - openblas
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
     - r-awsmethods >=1.0_1
     - r-gsl
     - gsl                        # [win]
-    - openblas
 
 test:
   commands:
