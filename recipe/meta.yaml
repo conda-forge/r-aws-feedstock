@@ -37,8 +37,6 @@ requirements:
     - {{posix}}coreutils         # [win]
     - {{posix}}zip               # [win]
   host:
-    - libblas
-    - libcblas
     - r-base
     - r-awsmethods >=1.0_1
     - r-gsl
