@@ -3,9 +3,9 @@ About r-aws
 
 Home: http://www.wias-berlin.de/people/polzehl/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: We provide a collection of R-functions implementing adaptive smoothing procedures in 1D, 2D and 3D. This includes the Propagation-Separation Approach to adaptive smoothing as described in "J. Polzehl and V. Spokoiny (2006) <DOI:10.1007/s00440-005-0464-1>", "J. Polzehl and V. Spokoiny (2004) <DOI:10.20347/WIAS.PREPRINT.998>" and "J. Polzehl, K. Papafitsoros, K. Tabelow (2018) <DOI:10.20347/WIAS.PREPRINT.2520>", the Intersecting Confidence Intervals (ICI), variational approaches and a non-local means filter.
 
