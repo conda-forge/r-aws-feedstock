@@ -1,4 +1,4 @@
-{% set version = "2.5-3" %}
+{% set version = "2.5-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/aws_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/aws/aws_{{ version }}.tar.gz
-  sha256: 154ed68785de8c4a02db1916dfe50862cf544865901936e864207ada777e5108
+  sha256: 6d93741e649cc7bddcdccc0fe87f02cb8b79d7e70a95e60891c58b49b51d49ef
 
 build:
   merge_build_host: true  # [win]
