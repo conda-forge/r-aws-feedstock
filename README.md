@@ -3,6 +3,7 @@ About r-aws-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aws-feedstock/blob/main/LICENSE.txt)
 
+
 About r-aws
 -----------
 
@@ -11,6 +12,7 @@ Home: http://www.wias-berlin.de/people/polzehl/
 Package license: GPL-2.0-or-later
 
 Summary: We provide a collection of R-functions implementing adaptive smoothing procedures in 1D, 2D and 3D. This includes the Propagation-Separation Approach to adaptive smoothing as described in "J. Polzehl and V. Spokoiny (2006) <DOI:10.1007/s00440-005-0464-1>", "J. Polzehl and V. Spokoiny (2004) <DOI:10.20347/WIAS.PREPRINT.998>" and "J. Polzehl, K. Papafitsoros, K. Tabelow (2018) <DOI:10.20347/WIAS.PREPRINT.2520>", the Intersecting Confidence Intervals (ICI), variational approaches and a non-local means filter.
+
 About r-aws
 -----------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
